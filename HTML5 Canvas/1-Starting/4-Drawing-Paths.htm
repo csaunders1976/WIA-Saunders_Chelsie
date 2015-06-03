@@ -13,8 +13,23 @@
 				if (theCanvas && theCanvas.getContext) {
 					var ctx = theCanvas.getContext("2d");
 					if (ctx) {
-						
-						
+						ctx.strokeStyle = "blue";
+						ctx.fillStyle= "red";
+						ctx.lineWidth = 5;
+
+						//Draw an open path
+						ctx.beginPath();
+						ctx.moveTo(25,175);
+						ctx.lineTo(50,25);
+						ctx.lineTo(125,50);
+						ctx.lineTo(175,175);
+						//ctx.lineTo(25,175);
+						ctx.closePath();
+						ctx.fill();
+						ctx.stroke();
+
+
+
 					}
 				}
 			}
