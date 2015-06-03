@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a019e3a-11aa-4422-a1f9-e7ebd8cd2134" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/3- Drawing-States.htm" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/3- Drawing-States.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/4-Drawing-Paths.htm" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/4-Drawing-Paths.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/5-Drawing-Arcs.htm" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/5-Drawing-Arcs.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/6-Curves.htm" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/6-Curves.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/7-Text.htm" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/7-Text.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Animation.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Animation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Clipping.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Clipping.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Clipping2.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Clipping2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Compositing.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Compositing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Curves.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Curves.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/GlobalAlpha.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/GlobalAlpha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Gradients.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Gradients.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Images.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Images.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Patterns.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Patterns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Rotate.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Rotate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Scale.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Scale.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Shadows.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Shadows.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Text.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Text.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Translate.js" afterPath="$PROJECT_DIR$/HTML5 Canvas/1-Starting/js/Translate.js" />
-    </list>
+    <list default="true" id="7a019e3a-11aa-4422-a1f9-e7ebd8cd2134" name="Default" comment="" />
     <ignored path="WIA-Saunders_Chelsie.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
