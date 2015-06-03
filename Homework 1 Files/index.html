@@ -1,15 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>HTML5 Drawing</title>
+    <style type="text/css">
+        #Canvas1, #Canvas2, #Canvas3, #Canvas4, #Canvas5, #Canvas6, #Canvas7 {
+            border: dotted 1px black;
+        }
+        #Canvas7{
+            background-color: lightblue;
+        }
+    </style>
     <script src="includes/modernizr.js"></script>
-    <script src="js/main.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>HTML5 Canvas Drawing</h1>
-    </div>
+<div id="container">
+    <h1>HTML5 Canvas Drawing</h1>
+    <p>Part One</p>
+    <canvas id="Canvas1" width="200" height="200">Your browser does not support canvas.</canvas>
+    <p>Part Two</p>
+    <canvas id="Canvas2" width="200" height="200">Your browser does not support canvas.</canvas>
+    <p>Part Three</p>
+    <canvas id="Canvas3" width="400" height="300">Your browser does not support canvas.</canvas>
+    <p>Part Four</p>
+    <canvas id="Canvas4" width="500" height="300">Your browser does not support canvas.</canvas>
+    <p>Part Five</p>
+    <canvas id="Canvas5" width="400" height="150">Your browser does not support canvas.</canvas>
+    <p>Part Six</p>
+    <canvas id="Canvas6" width="3300" height="2300">Your browser does not support canvas.</canvas>
+    <p>Part Seven</p>
+    <img id="img1" src="image/logo.png" width="3300" height="1088" style="display:none;">
+    <canvas id="Canvas7" width="400" height="300">Your browser does not support canvas.</canvas>
+</div>
 
+
+
+<script src= "js/main.js"></script>
 
 </body>
 </html>
+
