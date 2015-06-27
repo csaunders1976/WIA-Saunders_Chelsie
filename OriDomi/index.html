@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>OriDOMi Presentation</title>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/styles.css">
+
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/styles/dark.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>OriDOMi</h1>
+					<h3>The web is flat, now you can fold it up</h3>
+				</section>
+				<section>
+					<h2>www.oridomi.com</h2>
+				</section>
+				<section>
+					<h2>All About OriDomi</h2>
+					<ul>
+						<li class fragment>Created by Dan Motzenbecker</li>
+						<li class fragment>It is open source</li>
+						<li class fragment>Works wit Media queries</li>
+						<li class fragment>Touch and Mouse Handlers</li>
+						<li class fragment>Fully responsive</li>
+						<li class fragment>Zero depndencies</li>
+						<li class fragment>It can work with jquery</li>
+					</ul>
+				</section>
+				<section>
+					<div id="demo1">
+
+
+					</div>
+				</section>
+
+				<section>
+					<div id="demo2">
+
+					</div>
+				</section>
+
+				<section>
+					<div id="demo3">
+
+					</div>
+				</section>
+
+				<section>
+					<div id="demo4">
+
+						<h3>私のホバークラフトは鰻でいっぱいです</h3>
+						<h2>(Watashi no hobakurafuto wa unagi de ippai desu.)</h2>
+						<p>translates to: My hovercraft is full of eels</p>
+
+					</div>
+				</section>
+				<section>
+					<h2>Fun with HTML</h2>
+					<h3>We have to do a little...very little</h3>
+				</section>
+				<section>
+					<h2>HTML</h2>
+					<pre><code>
+
+						//Put this in the Head Tag
+						&lt;link rel="stylesheet" href="css/styles.css"&gt;
+
+						//Create a space in the DOM for what you want folded
+						&lt;div id="demo1"&gt; &lt;/div &gt;
+
+						//Add your links to the javaScript at the bottom
+			&lt;script src="js/oridomi.min.js">&lt;/script&gt;
+			&lt;script src="js/presentation.js">&lt;/script&gt;
+
+					</code></pre>
+				</section>
+
+				<section>
+					<h2>There is a little CSS</h2>
+				</section>
+				<section>
+					<h2>CSS</h2>
+					<pre><code>
+						#demo1{
+						background: url('../images/1024px-The_Great_Wave_off_Kanagawa.jpg') no-repeat;
+						display: block;
+						height: 44rem;
+
+						}
+					</code></pre>
+				</section>
+				<section>
+					<h2>Let's look at the Java Script</h2>
+					<h3>It is REALLY EASY</h3>
+				</section>
+				<section>
+					<h2>JavaScript</h2>
+					<pre><code>
+
+						var folded = new OriDomi('.paper', {
+						vPanels:         5,     // number of panels when folding left or right (vertically oriented)
+						hPanels:         3,     // number of panels when folding top or bottom
+						speed:           1200,  // folding duration in ms
+						ripple:          2,     // backwards ripple effect when animating
+						shadingIntesity: .5,    // lessen the shading effect
+						perspective:     800,   // smaller values exaggerate 3D distortion
+						maxAngle:        40,    // keep the user's folds within a range of -40 to 40 degrees
+						shading:         'soft' // change the shading type
+
+					var folded = new OriDomi('#demo1', {
+					vPanels:         10,     // number of panels when folding left or right (vertically oriented)
+					ripple:          2
+					});
+
+					var folding = new OriDomi('#demo2');
+
+					folding.accordion(30,'top');
+
+
+
+					var foldit = new OriDomi ('#demo3');
+
+					foldit.twist();
+
+					var folder = new OriDomi ('#demo4');
+
+					folder.ramp();
+
+					</code></pre>
+
+				</section>
+				
+
+
+
+                
+                <section>
+                		<h2>Code View</h2>
+                        <pre><code>
+&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;head&gt;
+&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;
+&lt;!-- TemplateBeginEditable name=&quot;doctitle&quot; --&gt;
+&lt;title&gt;Untitled Document&lt;/title&gt;
+&lt;!-- TemplateEndEditable --&gt;
+&lt;!-- TemplateBeginEditable name=&quot;head&quot; --&gt;
+&lt;!-- TemplateEndEditable --&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+                      
+                        
+                        </code>
+                        </pre>
+                        
+                
+                </section>
+                	
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script src="js/oridomi.min.js"></script>
+		<script src="js/presentation.js"></script>
+
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme || 'simple', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

@@ -1,5 +1,8 @@
-console.log("Your browser does not support the new date picker");
+console.log("Your browser does not support canvas");
 
-$("input[type=date]").datepicker({
-    dateFormate:"mm/dd/yy"
-});
+
+//polyfill or webshims can go here
+
+//activate our webshim
+
+webshims.polyfill("canvas");

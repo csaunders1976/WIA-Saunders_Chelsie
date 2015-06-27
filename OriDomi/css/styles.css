@@ -1,0 +1,25 @@
+#demo1{
+    background: url('../images/1024px-The_Great_Wave_off_Kanagawa.jpg') no-repeat;
+    display: block;
+    height: 44rem;
+
+}
+
+#demo2{
+    background: url('../images/Itsukushima_torii_distance.jpg') no-repeat;
+    display: block;
+    height: 44rem;
+
+}
+
+#demo3 {
+    background: url('../images/1024px-Kinkaku-ji_01.jpg') no-repeat;
+    display: block;
+    height: 44rem;
+
+}
+#demo4 {
+    display: block;
+    height: 44rem;
+
+}

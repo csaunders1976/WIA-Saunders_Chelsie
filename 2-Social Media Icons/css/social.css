@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.icons #twitter{
+    background-image:url(../images/socialicons.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    height: 32px;
+    width: 32px;
+    display:block;
+    float:left;
+}
+
+.icons #twitter:hover{
+    background-position:0px -32px;
+}
+
+@charset "UTF-8";
+
+.icons #facebook{
+    background-image:url(../images/socialicons.png);
+    background-repeat:no-repeat;
+    background-position:-32px 0px;
+    height: 32px;
+    width: 32px;
+    display:block;
+    float:left;
+}
+
+.icons #facebook:hover{
+    background-position:-32px -32px;
+}

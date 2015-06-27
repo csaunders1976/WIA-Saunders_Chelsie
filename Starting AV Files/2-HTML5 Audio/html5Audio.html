@@ -9,7 +9,16 @@
 	</head>
 
 	<body>		
-    		
+
+	<audio src="audio/music.oga" controls>
+		Audio is not supported
+	</audio>
+	<audio id="audio" controls>
+		<source src="audio/music.mp3" type="audio/mpeg"/>
+		<source src="audio/music.oga" type="audio/ogg"/>
+		Audio is not supported
+	</audio>
+	<button onClick="clicked()" >Skip two seconds</button>
           
          <script type = "text/javascript" src = "js/audioControl.js"></script>
  

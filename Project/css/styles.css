@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+body {
+    width: 960px;
+    margin: 0 Auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#666;
+}
+#visionvideo{
+    float:right;
+}
+#intro{
+    width:400px;
+    float:left;
+}
+.headline{
+    clear:both;
+    width:960px;
+}
+/*  Campus Info   or map grapic*/
+.campus_detail_container {
+    display: none;
+}
+.campus_detail_container .campus_detail {
+    width: 460px;
+}
+.map_container {
+    background: url(../images/map.png) no-repeat 0 0;
+    height: 360px;
+    width: 960px;
+    position: relative;
+    font-size: 12px;
+    float: left;
+
+}
+.map_container .clear_both  { clear: both; }
+.map_container .campus_info h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.map_container .campus_info h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.map_container a, a:visited {
+    color: #ccc;
+}
+.map_container a.dot {
+    background: url(../images/mapLights.png)no-repeat 0 0;
+    height: 15px;
+    width: 16px;
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+.map_container a.dot.selected {
+    background-position: 0 -30px;
+}
+.map_container a.dot:hover {
+    background-position: 0 -15px;
+}
+.map_container .detail_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 260px;
+}
+.map_container .campus_detail {
+    position: absolute;
+    top: 0;
+    left:400px;
+    width: 480px;
+    padding: 10px 0 0 12px;
+}
+.map_container .campus_detail .campus_photo {
+    margin-right: 15px;
+
+}
+.map_container .campus_detail .campus_info {
+    width: 460px;
+}
+.campus_info p{
+    font-size: 18px;
+}
+
+/* End of Map Styles */
+/* Start of DATA */
+
+#baptisms, #giving{
+    float:left;
+    margin-left:20px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px double #858585;
+
+}

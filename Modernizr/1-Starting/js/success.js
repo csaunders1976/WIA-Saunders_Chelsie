@@ -1,1 +1,1 @@
-console.log("The new date picker is supported");
+console.log("The canvas is supported");
